@@ -1,3 +1,4 @@
+#parte de Jazben
 import random
 
 # 1. Datos de entrenamiento (Compuerta OR)
@@ -5,6 +6,7 @@ import random
 datos = [[0, 0], [0, 1], [1, 0], [1, 1]]
 # Respuestas que la IA debe aprender a predecir
 respuestas_correctas = [0, 1, 1, 1]
+variable=0
 
 # 2. Inicializar el "cerebro" en blanco (Valores aleatorios)
 w1 = random.uniform(-1, 1)
